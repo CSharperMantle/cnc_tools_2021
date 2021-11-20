@@ -1,4 +1,4 @@
-% Assignment for 2021-11-20.
+% my_xy_z.m: Assignment for 2021-11-20.
 % 
 % Modeling for an XYZ set with X & Y on the workpiece
 % and Z on cutting machineries.
