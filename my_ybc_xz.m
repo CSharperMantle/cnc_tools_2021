@@ -26,10 +26,10 @@ syms ErrLin_yCA;
 
 List_Err_X = [ ErrLin_xX ErrLin_yX ErrLin_zX ErrRot_xX ErrRot_yX ErrRot_zX ];
 List_Err_Y = [ ErrLin_xY ErrLin_yY ErrLin_zY ErrRot_xY ErrRot_yY ErrRot_zY ];
-List_Err_Z = [ErrLin_xZ ErrLin_yZ ErrLin_zZ ErrRot_xZ ErrRot_yZ ErrRot_zZ];
-List_Err_B = [ErrLin_xB ErrLin_yB ErrLin_zB ErrRot_xB ErrRot_yB ErrRot_zB;
-    ErrLin_xBy ErrLin_yBy ErrLin_zBy ErrRot_aBy ErrRot_bBy ErrRot_cBy];
-List_Err_C = [ErrLin_xC ErrLin_yC ErrLin_zC ErrRot_xC ErrRot_yC ErrRot_zC;
+List_Err_Z = [ ErrLin_xZ ErrLin_yZ ErrLin_zZ ErrRot_xZ ErrRot_yZ ErrRot_zZ ];
+List_Err_B = [ ErrLin_xB ErrLin_yB ErrLin_zB ErrRot_xB ErrRot_yB ErrRot_zB;
+    ErrLin_xBy ErrLin_yBy ErrLin_zBy ErrRot_aBy ErrRot_bBy ErrRot_cBy ];
+List_Err_C = [ ErrLin_xC ErrLin_yC ErrLin_zC ErrRot_xC ErrRot_yC ErrRot_zC;
     0 ErrLin_yCA 0 0 ErrRot_bCA 0 ];
 
 % Workpiece chain
