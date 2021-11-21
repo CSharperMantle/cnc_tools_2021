@@ -15,7 +15,6 @@ syms ErrRot_xY ErrRot_yY ErrRot_zY;  % Rotation error on Y
 syms ErrLin_xZ ErrLin_yZ ErrLin_zZ;  % Linear error on Z
 syms ErrRot_xZ ErrRot_yZ ErrRot_zZ;  % Rotation error on X
 
-List_Orig = [ x y z ];  % Original displacement
 List_Err_X = [ ErrLin_xX ErrLin_yX ErrLin_zX ErrRot_xX ErrRot_yX ErrRot_zX ];
 List_Err_Y = [ ErrLin_xY ErrLin_yY ErrLin_zY ErrRot_xY ErrRot_yY ErrRot_zY ];
 List_Err_Z = [ ErrLin_xZ ErrLin_yZ ErrLin_zZ ErrRot_xZ ErrRot_yZ ErrRot_zZ ];
